@@ -1,0 +1,44 @@
+body {
+	font-family: 'PtSans';
+	margin: 0;
+	background: rgb(225,157,56);
+	background: linear-gradient(214deg, rgba(225,157,56,1) 0%, rgba(179,85,152,1) 0%, rgba(181,87,87,1) 20%, rgba(205,140,140,1) 49%, rgba(225,157,56,1) 100%);
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100vh;
+	background-position: fixed;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+div {
+	display: block;
+}
+a {
+	text-decoration: none;
+}
+input, button {
+	margin: 0;
+	padding: 0;
+	font: inherit;
+	line-height: normal;
+	color: inherit;
+	background-color: transparent;
+	border: none;
+	outline: none;
+}
+
+input {
+	font: inherit;
+}
+
+button {
+	cursor: pointer;
+}
+
+h1, h2, h3 {
+	margin: 0;
+}
