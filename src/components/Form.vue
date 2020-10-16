@@ -81,15 +81,10 @@ export default {
 </script>
 
 <style  lang="scss" scoped>
-* {
-	transition: ( all 0.25s cubic-bezier(.53,.01,.35,1.5));
-
-}
-
+$color: rgba(255,74,86,1);
 form {
 	display: flex;
 	flex-direction: column;
-	// display: inline-block;
 	width: 400px;
 	height: 350px;
 	padding: 30px 25px;
@@ -101,9 +96,8 @@ form {
 	
 	  
 	h1 {
-		color: rgba(255,74,86,1);
+		color: $color;
 		font-weight: 100;
-		// letter-spacing: 0.01em;
 		margin-left: 15px;
 		margin-bottom: 35px;
 		text-transform: uppercase;
@@ -119,15 +113,14 @@ form {
 		box-sizing: border-box;
 		padding: 20px 15px; 
 		border-radius: 60px;
-		color: rgba(255,74,86,1);
+		color: $color;
 		font-weight: 100;
-		// letter-spacing: 0.01em;
 		position: relative;
 		z-index: 1;
 		
 		&:hover, &:focus {
 			color: white;
-			background-color: rgba(255,74,86,1);
+			background-color: $color;
 		}
 	}
 	.question {
@@ -136,9 +129,8 @@ form {
 		  
 		label {
 			transform-origin: left center;
-			color:  rgba(255,74,86,1);
+			color:  $color;
 			font-weight: 100;
-			// letter-spacing: 0.01em;
 			font-size: 17px;
 			box-sizing: border-box;
 			padding: 10px 15px;
@@ -153,7 +145,7 @@ form {
 		input {		
 			position: relative;
 			font-size: 17px;
-			color: rgba(255,74,86,1);
+			color: $color;
 			padding: 10px 15px;
 			background-color: none;
 			box-sizing: border-box;
@@ -164,19 +156,16 @@ form {
 			display: block;
 			border-radius: 60px;
 			font-weight: 100;
-			// letter-spacing: 0.01em;
 			z-index: 1;
 
 			&::placeholder {
 				font-weight: 300;
-				// line-height: 0.9;
-
 				color: rgba(175, 47, 47, 0.15);
 			}
 
 			&:focus {
 				outline: none;
-				background: rgba(255,74,86,1);
+				background:$color;
 				color: white;
 			}
 				
